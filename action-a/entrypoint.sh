@@ -1,3 +1,6 @@
-#!/bin/sh -l
+#!/bin/bash
 
-sh -c "echo Hello world my name is $INPUT_MY_NAME"
+echo Hello world my name is DAT
+git branch
+git rev-list --tags --max-count=1
+echo test
